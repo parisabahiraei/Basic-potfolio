@@ -18,7 +18,7 @@ body {
   border: var(--border);
   background: var(--primary-color);
   border-radius: 8px;
-  max-width: 50%;
+  max-width: 80%;
 
   padding: 40px 20px;
 }
@@ -34,6 +34,7 @@ a.button {
   border-radius: 8px;
   text-decoration: none;
   flex: 1;
+  
 }
 a:hover {
   background-color: #e5f8fa;
@@ -57,4 +58,24 @@ a:visited {
 }
 .about {
   margin: 50px auto;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 10px solid #e5f8fa;
+}
+img:hover {
+  box-shadow: var(--box-shadow);
+}
+.projectSummary {
+  margin-top: 70px;
+}
+.projectSummary:hover {
+  background-color: #e5f8fa;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1;
 }
