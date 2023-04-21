@@ -69,7 +69,7 @@ img:hover {
   box-shadow: var(--box-shadow);
 }
 .projectSummary {
-  margin-top: 70px;
+  margin-top: 10px;
 }
 .projectSummary:hover {
   background-color: #e5f8fa;
@@ -77,4 +77,7 @@ img:hover {
   border-radius: 8px;
   padding: 10px;
   flex: 1;
+}
+h2 {
+  padding-top: 50px;
 }
